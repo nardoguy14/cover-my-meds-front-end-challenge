@@ -1,1 +1,9 @@
-<p>This is the partial for view 1.</p>
+<p id = "helloWorldHeader">
+    Hello <span id="worldClause">World</span> !
+
+
+</p>
+
+<p class="friendNames" ng-repeat="friend in friends" style="background-color: {{friend.backgroundColor}};">
+    Hello <span style="color: {{friend.favoriteColor}}">{{friend.name}} </span>
+</p>
